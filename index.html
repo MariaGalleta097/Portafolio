@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="María Domínguez">
+    <meta name="description" content="Portafolio de desarrollo web">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>María Belén Domínguez | Desarrollo Web Front-End</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/icono.png">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="imagenes/icono.png" width="50" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+         <h1>María Belén Domínguez</h1>
+        <!--<h2>Desarrollo sitios web</h2>-->
+
+        <!--Animación con JavaScript-->
+        <h2 class="text-primary mb-4" id="typewriter"></h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="imagenes/hero-inferior.gif" alt="Cuarto morado">
+      </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Sobre mí</h2>
+        <p class="seccion-texto">Soy estudiante universitaria y Desarrolladora Web Junior enfocada en el Front-End. Estoy motivada a aprender y seguir creciendo, apasionada por las tecnologías y
+          sobre todo por el desarrollo web, destaco por mi capacidad de cuidar los
+          detalles y aprender rápido.</p>
+      </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo Web -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Desarrollo Web</p>
+            <p>A lo largo de mi carrera en esta área, he enfocado mi aprendizaje y experiencia en estas habilidades esenciales que considero fundamentales para crear soluciones efectivas.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">HTML</span>
+              <span class="badge text-bg-primary">CSS</span>
+              <span class="badge text-bg-primary">JavaScript</span>
+              <span class="badge text-bg-primary">AWS</span>
+              <span class="badge text-bg-primary">Inglés</span>
+              <span class="badge text-bg-primary">Marketing</span>
+            </div>
+          </div>
+          <!-- Articulos -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Trayectoria</p>
+            <p>En cada una de las escuelas que he asistido, he tenido la oportunidad de profundizar en áreas clave. Estos estudios han sido fundamentales para mi desarrollo profesional y personal.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Curso de Desarrollo Front-End </span>
+              <span class="badge text-bg-primary">Desarrollo Web + Cloud Computing</span>
+              <span class="badge text-bg-primary">Capacitación en informática</span>
+            </div>
+          </div>
+          <!-- Estudiante -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Estudiante</p>
+            <p>Mi trayectoria académica ha sido enriquecida por diversas instituciones educativas, cada una aportando un valor único a mi formación.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Tecnolochicas PRO</span>
+              <span class="badge text-bg-primary">Mujer Digital - Junior Achivement</span>
+              <span class="badge text-bg-primary">BUAP</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
+      <h3 class="seccion-descripcion">Estos son algunos proyectos en los que he trabajado recientemente</h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/Luna.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Luna Luna Loop</p>
+                <div class="iconos-contenedor">
+                  <a href="https://m-123456.itch.io/luna-luna-loop-adventure" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-controller"></i>
+                  </a>
+                  <a href="https://itch.io/jam/women-game-jam-2024" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/googleclon.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Clon de google</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/MariaGalleta097/GoogleClone" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://mariagalleta097.github.io/GoogleClone/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/artista.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Artista favorito</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/MariaGalleta097/Artista-favorito" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://mariagalleta097.github.io/Artista-favorito/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Testimonios</h2>
+      <h3 class="seccion-descripcion">Muchas gracias a quienes confían en mi.</h3>
+      
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/Atenas_Franco.jpg" alt="Foto de Atenas_Franco">
+              <p class="testimonio-texto">Ha demostrado ser una estudiante excepcional, destacándose por su dedicación, compromiso y actitud positiva hacia el aprendizaje. Su rendimiento académico es consistente y sobresaliente, y su capacidad para trabajar en equipo y apoyar a sus compañeros es admirable. Siempre está dispuesta a enfrentar nuevos desafíos con entusiasmo y perseverancia, lo que la convierte en un ejemplo a seguir para sus compañeros. Estoy segura de que Belén continuará alcanzando grandes logros en el futuro</p>
+              <div class="testimonio-info">
+                <p class="cliente">Atenas Franco</p>
+                <p class="cargo">Mentora Tecnolochicas PRO</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/Lizeth.jpg" alt="Foto de Nora">
+              <p class="testimonio-texto">Se ha destacado por su notable comprensión en los principios clave para el desarrollo de páginas web, acompañada de habilidades que le permitieron aplicar estos conocimientos de manera efectiva. Su enfoque innovador resalta su gran potencial, 
+                Con una ética de trabajo y una actitud siempre orientada al aprendizaje, no teme a los desafíos. Su búsqueda continua de crecimiento personal y profesional la convierte en una persona perseverante y comprometida. </p>
+              <div class="testimonio-info">
+                <p class="cliente">Lizeth Sarahi Sánchez Cano</p>
+                <p class="cargo">Químico Farmacobiologo</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/person-heart.svg" alt="Testimonio">
+              <p class="testimonio-texto">Es comprometida, apasionada y valiosa. Tiene un especial interés por la innovación y le gusta estar en constante aprendizaje. No duda de dar todo de si misma para que los objetivos se cumplan, así como sostiene una impecable ética de trabajo. Es una persona muy especial. Es inteligente y de ágil pensamiento, halla soluciones veloces en los momentos más tensos, y posee un diverso repertorio de habilidades y conocimientos que pueden llegar a sorprenderte</p>
+              <div class="testimonio-info">
+                <p class="cliente">Diego C.</p>
+                <p class="cargo">Estudiante</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    
+    <!-- Pie de pagina (footer) -->
+    <footer id=contacto class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="imagenes/icono-blanco.svg" alt="Logo del portafolio">
+      <p class="footer-texto text-center">Tus inicios serán humildes pero tu futuro será próspero,<br>Sueña.</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://github.com/MariaGalleta097" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="www.linkedin.com/in/ mariab-domínguez" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="m.bdominguez107@gmail.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">María Belén Domínguez (2024) &#169;</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="main.js"></script>
+
+  </body>
+</html>
